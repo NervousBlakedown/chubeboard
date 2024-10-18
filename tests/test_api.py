@@ -114,7 +114,7 @@ def get_stations_on_lines(line_ids, app_key):
             print(f"Error fetching stations for {line_id} line: {e}")
             all_stations[line_id] = None  # Indicate failure to retrieve stations for this line
 
-    return all_stations
+    # return all_stations
 
 # 3. Disruptions
 def get_all_line_disruptions(app_key, modes = 'tube,dlr,overground,tram'):
